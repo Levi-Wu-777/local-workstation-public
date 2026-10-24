@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私说明 · Local Workstation</title>
+<style>
+  body { max-width: 760px; margin: 64px auto; padding: 0 24px; color: #182235; background: #f7f9fc; font: 17px/1.8 system-ui, sans-serif; }
+  main { padding: 36px; background: white; border: 1px solid #dce3ed; border-radius: 16px; }
+  h1 { margin: 0; font-size: 30px; line-height: 1.4; } h2 { margin-top: 28px; font-size: 21px; }
+  a { color: #215ce5; } .subtitle { margin-top: 6px; color: #52647c; }
+  @media (max-width: 600px) { body { margin: 24px auto; } main { padding: 24px; } }
+</style>
+<main>
+  <h1>隐私说明</h1>
+  <p class="subtitle">Local Workstation · 更新日期：2026-10-24</p>
+  <h2>访问和使用的数据</h2>
+  <p>本地工作站在用户主动完成 Google OAuth 授权后，访问 Gmail 邮箱地址、邮件 ID、主题、发件人、接收时间、未读状态和用户展开的邮件正文。这些数据用于在本人 Mac 上显示邮件、统计未读数量及同步已读状态。</p>
+  <h2>数据存储</h2>
+  <p>邮件列表、未读数量及已读取的正文缓存在本机服务的进程内存中。服务停止后，该缓存随进程结束；同步时会移除已不在最新 10 封列表中的正文缓存。</p>
+  <p>OAuth 客户端凭据和刷新令牌存储在用户控制的 Infisical 项目中，本机服务通过该凭据向 Google 请求访问令牌。邮件内容不存储到 Infisical。</p>
+  <h2>共享和转移</h2>
+  <p>邮件数据仅用于上述个人邮箱功能，不出售给第三方，不用于广告，不发送给分析服务或用于训练通用 AI 模型。本应用对通过 Google API 获取的信息的使用和转移遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括其中的 Limited Use 要求。</p>
+  <p>本说明站点由 GitHub Pages 托管，不接收或展示邮箱数据。GitHub 对站点访问记录的处理遵循其 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">隐私声明</a>。</p>
+  <h2>撤销授权和删除数据</h2>
+  <p>用户可在 <a href="https://myaccount.google.com/connections">Google Account 的第三方连接管理</a>中撤销本应用的授权。停止本机服务可清除进程内的邮件缓存；用户可在自己的 Infisical 项目中删除 Gmail 凭据。</p>
+  <h2>联系维护者</h2>
+  <p><a href="mailto:levi.wu.work@gmail.com">levi.wu.work@gmail.com</a></p>
+  <p><a href="./">返回应用介绍</a></p>
+</main>
+</html>

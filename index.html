@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>本地工作站 · Local Workstation</title>
+<style>
+  body { max-width: 760px; margin: 64px auto; padding: 0 24px; color: #182235; background: #f7f9fc; font: 17px/1.8 system-ui, sans-serif; }
+  main { padding: 36px; background: white; border: 1px solid #dce3ed; border-radius: 16px; }
+  h1 { margin: 0; font-size: 30px; line-height: 1.4; } h2 { margin-top: 28px; font-size: 21px; }
+  a { color: #215ce5; } .subtitle { margin-top: 6px; color: #52647c; } footer { margin-top: 28px; font-size: 14px; }
+  @media (max-width: 600px) { body { margin: 24px auto; } main { padding: 24px; } }
+</style>
+<main>
+  <h1>本地工作站</h1>
+  <p class="subtitle">Local Workstation · 个人本机工具</p>
+  <p>本地工作站是由使用者本人维护、运行在本人 Mac 上的个人应用，用于管理开发工作树、部署与测试入口、常用网站和个人邮箱。</p>
+  <h2>Gmail 邮箱功能</h2>
+  <ul>
+    <li>通过 Google OAuth 获得本人授权后，展示收件箱最新 10 封邮件和未读数量。</li>
+    <li>邮件默认折叠，展开后读取正文并同步 Gmail 的已读状态。</li>
+    <li>后台定期同步邮件，网页读取本机缓存。</li>
+  </ul>
+  <p>应用使用 <code>gmail.modify</code> 权限读取邮件和更新已读状态。Google 将写信和发信也纳入这一授权范围；本应用当前提供的功能为邮件阅读与已读同步。</p>
+  <h2>使用范围</h2>
+  <p>本应用供账户所有者个人使用，在本机回环地址运行。本页面用于介绍应用及其 Google OAuth 数据处理方式。</p>
+  <footer><a href="privacy.html">隐私说明 · Privacy Policy</a> · <a href="mailto:levi.wu.work@gmail.com">联系维护者</a></footer>
+</main>
+</html>
